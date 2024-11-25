@@ -1,24 +1,13 @@
-# README
+# INSTRUCTIONS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In this exercise you will have to create a web application that gives random compliments.
+The root route has to show a random compliment that should come from the database.
 
-Things you may want to cover:
+In order to do so, you should:
 
-* Ruby version
+- Create the needed models, controllers and views.
+- Populate the seeds with some compliments to start with.
+- Using the existing `User`` model (devise is installed) a registered user must be able to edit existing compliments or add new ones.
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The base application has already Bootstrap installed and Devise with a User model.
